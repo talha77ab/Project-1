@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body{
+    background: url(../Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Login{
+    width: 350px;
+    top: 10%;
+    left: 40%;
+    position: absolute;
+    color: white;
+
+}
+
+.Login h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    color: darkblue;
+
+}
+
+.Login p{
+    font-size: 20px;
+    margin: 15px 0;
+
+
+}
+
+.Login input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.Login button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+
+
+}
+
+@media only screen and (max-width:769px){
+
+    body{
+        background: url(../Background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .Login{
+        width: 350px;
+        top: -40px;
+        left: 10%;
+        position: absolute;
+        color: white;
+        
+    
+    }
+    
+    .Login h1{
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 50px;
+        
+        color: darkblue;
+    
+    }
+    
+    .Login p{
+        font-size: 20px;
+        
+        
+    
+    
+    }
+    
+    .Login input{
+        font-size: 16px;
+        width: 60%;
+        margin-top: -10px;
+        
+        
+        border: 0;
+        outline: none;
+        border-radius: 5px;
+    }
+    
+    .Login button{
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 260px;
+        padding: 10px 15px;
+        width: 40%;
+        border-radius: 5px;
+        border: 0;
+        cursor: pointer;
+        margin-top: -20px;
+        
+
+        
+    
+    
+    }
+
+
+
+
+
+}
